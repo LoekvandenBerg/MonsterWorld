@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RPG Town Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+    totalSpriteSurfaceArea: 937984
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300300, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300302, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300304, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300306, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300286, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300308, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300284, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300310, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300282, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300250, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300312, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300280, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300352, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300248, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300314, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300294, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300354, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300254, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300316, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300292, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300348, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300252, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300318, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300290, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300350, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300338, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300242, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300288, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300344, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300336, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300240, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300346, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300246, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300340, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300244, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300298, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300342, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300296, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300322, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300258, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300320, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300256, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300326, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300356, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300324, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300358, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300330, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300328, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300334, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300332, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300146, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300144, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300142, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300140, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300092, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300154, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300094, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300152, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300088, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300150, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300090, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300118, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300148, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300084, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300116, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300086, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300080, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300158, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300082, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300156, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300056, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300456, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300102, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300058, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300198, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300100, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300196, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300106, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300096, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300104, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300048, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300098, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300110, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300050, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300190, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300108, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300052, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300188, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300444, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300114, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300054, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300194, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300446, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300112, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300040, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300192, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300440, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300042, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300182, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300442, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300044, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300180, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300452, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300046, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300186, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300454, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300184, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300448, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300450, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300264, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300266, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300260, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300388, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300262, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300390, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300272, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300392, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300274, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300394, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300374, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300268, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300380, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300372, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300270, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300382, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300370, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300384, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300368, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300386, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300366, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300276, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300364, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300278, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300362, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300360, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300236, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300396, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300238, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300398, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300228, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300230, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300218, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300378, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300232, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300216, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300376, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300234, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300214, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300220, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300212, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300222, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300210, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300224, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300208, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300226, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300206, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300204, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300202, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300200, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300120, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300012, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300122, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300014, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300124, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300008, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300126, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300010, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300128, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300004, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300130, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300030, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300006, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300132, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300028, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300000, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300134, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300034, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300002, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300136, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300032, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300408, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300138, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300022, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300410, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300020, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300412, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300026, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300414, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300434, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300024, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300176, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300400, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300432, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300178, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300402, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300430, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300404, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300428, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300016, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300406, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300426, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300018, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300424, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300038, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300422, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300036, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300164, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300420, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300166, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300160, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300416, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300078, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300162, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300418, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300076, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300172, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300074, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300174, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300072, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300168, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300070, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300170, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300438, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300068, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300436, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300066, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300064, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300062, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  - {fileID: 21300060, guid: 30824c8609f871e4fbae527f6dcf9a33, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - RPGpack_sheet_150
+  - RPGpack_sheet_151
+  - RPGpack_sheet_152
+  - RPGpack_sheet_153
+  - RPGpack_sheet_143
+  - RPGpack_sheet_154
+  - RPGpack_sheet_142
+  - RPGpack_sheet_155
+  - RPGpack_sheet_141
+  - RPGpack_sheet_125
+  - RPGpack_sheet_156
+  - RPGpack_sheet_140
+  - RPGpack_sheet_176
+  - RPGpack_sheet_124
+  - RPGpack_sheet_157
+  - RPGpack_sheet_147
+  - RPGpack_sheet_177
+  - RPGpack_sheet_127
+  - RPGpack_sheet_158
+  - RPGpack_sheet_146
+  - RPGpack_sheet_174
+  - RPGpack_sheet_126
+  - RPGpack_sheet_159
+  - RPGpack_sheet_145
+  - RPGpack_sheet_175
+  - RPGpack_sheet_169
+  - RPGpack_sheet_121
+  - RPGpack_sheet_144
+  - RPGpack_sheet_172
+  - RPGpack_sheet_168
+  - RPGpack_sheet_120
+  - RPGpack_sheet_173
+  - RPGpack_sheet_123
+  - RPGpack_sheet_170
+  - RPGpack_sheet_122
+  - RPGpack_sheet_149
+  - RPGpack_sheet_171
+  - RPGpack_sheet_148
+  - RPGpack_sheet_161
+  - RPGpack_sheet_129
+  - RPGpack_sheet_160
+  - RPGpack_sheet_128
+  - RPGpack_sheet_163
+  - RPGpack_sheet_178
+  - RPGpack_sheet_162
+  - RPGpack_sheet_179
+  - RPGpack_sheet_165
+  - RPGpack_sheet_164
+  - RPGpack_sheet_167
+  - RPGpack_sheet_166
+  - RPGpack_sheet_73
+  - RPGpack_sheet_72
+  - RPGpack_sheet_71
+  - RPGpack_sheet_70
+  - RPGpack_sheet_46
+  - RPGpack_sheet_77
+  - RPGpack_sheet_47
+  - RPGpack_sheet_76
+  - RPGpack_sheet_44
+  - RPGpack_sheet_75
+  - RPGpack_sheet_45
+  - RPGpack_sheet_59
+  - RPGpack_sheet_74
+  - RPGpack_sheet_42
+  - RPGpack_sheet_58
+  - RPGpack_sheet_43
+  - RPGpack_sheet_40
+  - RPGpack_sheet_79
+  - RPGpack_sheet_41
+  - RPGpack_sheet_78
+  - RPGpack_sheet_28
+  - RPGpack_sheet_228
+  - RPGpack_sheet_51
+  - RPGpack_sheet_29
+  - RPGpack_sheet_99
+  - RPGpack_sheet_50
+  - RPGpack_sheet_98
+  - RPGpack_sheet_53
+  - RPGpack_sheet_48
+  - RPGpack_sheet_52
+  - RPGpack_sheet_24
+  - RPGpack_sheet_49
+  - RPGpack_sheet_55
+  - RPGpack_sheet_25
+  - RPGpack_sheet_95
+  - RPGpack_sheet_54
+  - RPGpack_sheet_26
+  - RPGpack_sheet_94
+  - RPGpack_sheet_222
+  - RPGpack_sheet_57
+  - RPGpack_sheet_27
+  - RPGpack_sheet_97
+  - RPGpack_sheet_223
+  - RPGpack_sheet_56
+  - RPGpack_sheet_20
+  - RPGpack_sheet_96
+  - RPGpack_sheet_220
+  - RPGpack_sheet_21
+  - RPGpack_sheet_91
+  - RPGpack_sheet_221
+  - RPGpack_sheet_22
+  - RPGpack_sheet_90
+  - RPGpack_sheet_226
+  - RPGpack_sheet_23
+  - RPGpack_sheet_93
+  - RPGpack_sheet_227
+  - RPGpack_sheet_92
+  - RPGpack_sheet_224
+  - RPGpack_sheet_225
+  - RPGpack_sheet_132
+  - RPGpack_sheet_133
+  - RPGpack_sheet_130
+  - RPGpack_sheet_194
+  - RPGpack_sheet_131
+  - RPGpack_sheet_195
+  - RPGpack_sheet_136
+  - RPGpack_sheet_196
+  - RPGpack_sheet_137
+  - RPGpack_sheet_197
+  - RPGpack_sheet_187
+  - RPGpack_sheet_134
+  - RPGpack_sheet_190
+  - RPGpack_sheet_186
+  - RPGpack_sheet_135
+  - RPGpack_sheet_191
+  - RPGpack_sheet_185
+  - RPGpack_sheet_192
+  - RPGpack_sheet_184
+  - RPGpack_sheet_193
+  - RPGpack_sheet_183
+  - RPGpack_sheet_138
+  - RPGpack_sheet_182
+  - RPGpack_sheet_139
+  - RPGpack_sheet_181
+  - RPGpack_sheet_180
+  - RPGpack_sheet_118
+  - RPGpack_sheet_198
+  - RPGpack_sheet_119
+  - RPGpack_sheet_199
+  - RPGpack_sheet_114
+  - RPGpack_sheet_115
+  - RPGpack_sheet_109
+  - RPGpack_sheet_189
+  - RPGpack_sheet_116
+  - RPGpack_sheet_108
+  - RPGpack_sheet_188
+  - RPGpack_sheet_117
+  - RPGpack_sheet_107
+  - RPGpack_sheet_110
+  - RPGpack_sheet_106
+  - RPGpack_sheet_111
+  - RPGpack_sheet_105
+  - RPGpack_sheet_112
+  - RPGpack_sheet_104
+  - RPGpack_sheet_113
+  - RPGpack_sheet_103
+  - RPGpack_sheet_102
+  - RPGpack_sheet_101
+  - RPGpack_sheet_100
+  - RPGpack_sheet_60
+  - RPGpack_sheet_6
+  - RPGpack_sheet_61
+  - RPGpack_sheet_7
+  - RPGpack_sheet_62
+  - RPGpack_sheet_4
+  - RPGpack_sheet_63
+  - RPGpack_sheet_5
+  - RPGpack_sheet_64
+  - RPGpack_sheet_2
+  - RPGpack_sheet_65
+  - RPGpack_sheet_15
+  - RPGpack_sheet_3
+  - RPGpack_sheet_66
+  - RPGpack_sheet_14
+  - RPGpack_sheet_0
+  - RPGpack_sheet_67
+  - RPGpack_sheet_17
+  - RPGpack_sheet_1
+  - RPGpack_sheet_68
+  - RPGpack_sheet_16
+  - RPGpack_sheet_204
+  - RPGpack_sheet_69
+  - RPGpack_sheet_11
+  - RPGpack_sheet_205
+  - RPGpack_sheet_10
+  - RPGpack_sheet_206
+  - RPGpack_sheet_13
+  - RPGpack_sheet_207
+  - RPGpack_sheet_217
+  - RPGpack_sheet_12
+  - RPGpack_sheet_88
+  - RPGpack_sheet_200
+  - RPGpack_sheet_216
+  - RPGpack_sheet_89
+  - RPGpack_sheet_201
+  - RPGpack_sheet_215
+  - RPGpack_sheet_202
+  - RPGpack_sheet_214
+  - RPGpack_sheet_8
+  - RPGpack_sheet_203
+  - RPGpack_sheet_213
+  - RPGpack_sheet_9
+  - RPGpack_sheet_212
+  - RPGpack_sheet_19
+  - RPGpack_sheet_211
+  - RPGpack_sheet_18
+  - RPGpack_sheet_82
+  - RPGpack_sheet_210
+  - RPGpack_sheet_83
+  - RPGpack_sheet_80
+  - RPGpack_sheet_208
+  - RPGpack_sheet_39
+  - RPGpack_sheet_81
+  - RPGpack_sheet_209
+  - RPGpack_sheet_38
+  - RPGpack_sheet_86
+  - RPGpack_sheet_37
+  - RPGpack_sheet_87
+  - RPGpack_sheet_36
+  - RPGpack_sheet_84
+  - RPGpack_sheet_35
+  - RPGpack_sheet_85
+  - RPGpack_sheet_219
+  - RPGpack_sheet_34
+  - RPGpack_sheet_218
+  - RPGpack_sheet_33
+  - RPGpack_sheet_32
+  - RPGpack_sheet_31
+  - RPGpack_sheet_30
+  m_Tag: RPG Town Atlas
+  m_IsVariant: 0
