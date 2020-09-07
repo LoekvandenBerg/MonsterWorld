@@ -27,12 +27,11 @@ public class NPC : Character {
         }
 	}
 
-    public void Interact(Character player = null)
+    public void Interact(Player player = null)
     {
         if (GetComponent<BattleLaunchCharacter>() != null)
         {
-            GetComponent<BattleLaunchCharacter>().PrepareBattle(player);
-
+            GetComponent<BattleLaunchCharacter>().PrepareBattle(player, player.launcher);
         }
 
         if (questName != "")

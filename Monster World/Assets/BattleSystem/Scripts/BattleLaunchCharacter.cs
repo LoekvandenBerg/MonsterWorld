@@ -1,16 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BattleSystem;
 
 public class BattleLaunchCharacter : MonoBehaviour {
 
     [SerializeField]
-    private List<BattleSystem.BattleCharacter> players, enemies;
-    [SerializeField]
-    private BattleSystem.BattleLauncher launcher;
+    private List<BattleCharacter> enemies;
     
-    public void PrepareBattle(Character character)
+    public void PrepareBattle(Player player, BattleLauncher launcher)
     {
-        launcher.PrepareBattle(enemies, players, character.transform.position);
+        launcher.PrepareBattle(enemies, player.team, player.transform.position);
     }
 }
