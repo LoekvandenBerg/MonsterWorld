@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 namespace QuestSystem
@@ -16,7 +16,7 @@ namespace QuestSystem
         {
             if (Quests.ContainsKey(questName))
             {
-                return System.Convert.ToBoolean(Quests[questName][0]);
+                return Convert.ToBoolean(Quests[questName][0]);
             }
             return false;
         }
@@ -28,7 +28,7 @@ namespace QuestSystem
 
         public void UpdateQuestData(Quest quest)
         {
-            Quests[quest.questName] = new int[] { System.Convert.ToInt32(quest.completed), quest.goal.countCurrent };
+            Quests[quest.questName] = new int[] { Convert.ToInt32(quest.completed), quest.goal.countCurrent };
             Debug.Log("Data updated for: " + quest.questName);
         }
     }

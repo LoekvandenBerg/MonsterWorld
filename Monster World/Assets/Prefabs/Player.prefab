@@ -99,6 +99,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
+  team:
+  - {fileID: 114968100158075884, guid: e306d7eb6cab87b43b06d5a4927e2c2a, type: 3}
+  - {fileID: 114968100158075884, guid: 4ab2761de27274c46aba4d6223449eb7, type: 3}
+  - {fileID: 114968100158075884, guid: 702fc1d17c15ef746bf8768b3127c78c, type: 3}
+  launcher: {fileID: 0}
 --- !u!50 &8385556208263384714
 Rigidbody2D:
   serializedVersion: 4

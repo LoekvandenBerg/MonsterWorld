@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using QuestSystem;
 
 public class NPC : Character {
     private Vector2[] movementDirections = new Vector2[] { Vector2.up, Vector2.right, Vector2.down, Vector2.left };
@@ -14,11 +15,11 @@ public class NPC : Character {
 
     [SerializeField]
     private string questName;
-    private QuestSystem.Quest quest;
-    private QuestSystem.QuestController questController;
+    private Quest quest;
+    private QuestController questController;
 
 	void Start () {
-        questController = FindObjectOfType<QuestSystem.QuestController>();
+        questController = FindObjectOfType<QuestController>();
         spawnPosition = transform.position;
 
         if (wander)
@@ -27,7 +28,7 @@ public class NPC : Character {
         }
 	}
 
-    public void Interact(Player player = null)
+    public void Interact(Player player)
     {
         if (GetComponent<BattleLaunchCharacter>() != null)
         {
@@ -42,7 +43,6 @@ public class NPC : Character {
                 quest = questController.AssignQuest(questName);
             }
         }
-        
     }
 
     public void Wander()

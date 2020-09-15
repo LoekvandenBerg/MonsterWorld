@@ -6,6 +6,11 @@ public class UIInventory : MonoBehaviour {
     [SerializeField]
     private SlotPanel[] slotPanels;
 
+    private void Start()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     public void AddItemToUI(Item item)
     {
         foreach(SlotPanel sp in slotPanels)

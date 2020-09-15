@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -32,13 +32,13 @@ namespace QuestSystem
             Quest questToAdd = null;
             if (FindActiveQuest(questName) == null)
             {
-                questToAdd = (Quest)gameObject.AddComponent(System.Type.GetType(questName));
+                questToAdd = (Quest)gameObject.AddComponent(Type.GetType(questName));
                 assignedQuests.Add(questToAdd);
                 questDatabase.AddQuest(questToAdd);
             }
             else
             {
-                questToAdd = (Quest)gameObject.GetComponent(System.Type.GetType(questName));
+                questToAdd = (Quest)gameObject.GetComponent(Type.GetType(questName));
             }
 
             QuestUIItem questUI = Instantiate(questUIItem, questUIParent);
@@ -48,7 +48,7 @@ namespace QuestSystem
 
         public Quest FindActiveQuest(string questSlug)
         {
-            return GetComponent(System.Type.GetType(questSlug)) as Quest;
+            return (Quest)GetComponent(Type.GetType(questSlug));
         }
 
         private void Populate(Scene scene, LoadSceneMode sceneMode)
@@ -65,6 +65,8 @@ namespace QuestSystem
 
         private void RemoveCompletedQuest(Quest quest)
         {
+            //Animation of Reward here?
+
             assignedQuests.Remove(quest);
             Destroy(quest);
         }

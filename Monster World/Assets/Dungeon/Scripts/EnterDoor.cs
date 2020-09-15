@@ -18,7 +18,7 @@ public class EnterDoor : MonoBehaviour {
 				Room room = dungeonGeneration.CurrentRoom();
 				Room nextRoom = room.Neighbor(this.direction);
 				dungeonGeneration.MoveToRoom(nextRoom);
-				SceneManager.LoadScene("Demo");
+				SceneManager.LoadScene("Dungeon");
 			}
 		}
 	}
