@@ -11,6 +11,7 @@ namespace BattleSystem
 
         private Vector2 worldPosition;
         private int worldSceneIndex;
+        private Player player;
 
         void Awake()
         {
@@ -19,6 +20,7 @@ namespace BattleSystem
                 Destroy(this.gameObject);
             }
             DontDestroyOnLoad(this);
+            player = FindObjectOfType<Player>();
             EventController.OnBattleCompleted += ReturnToWorld;
         }
 
@@ -33,6 +35,7 @@ namespace BattleSystem
 
         private void ReturnToWorld()
         {
+            player.gameObject.SetActive(true);
             GatewayManager.Instance.SetSpawnPosition(worldPosition);
             SceneManager.LoadScene(worldSceneIndex);
         }

@@ -10,7 +10,7 @@ public class Character : MonoBehaviour {
     private SpriteRenderer sprite;
 
 	// Use this for initialization
-	public void Start () {
+	public virtual void Start () {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
 	}

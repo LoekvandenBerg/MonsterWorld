@@ -8,8 +8,9 @@ public class Player : Character {
     public List<BattleCharacter> team;
     public BattleLauncher launcher;
     
-    void Start()
+    public override void Start()
     {
+        base.Start();
         DontDestroyOnLoad(this.gameObject);
     }
 

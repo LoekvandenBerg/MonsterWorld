@@ -8,6 +8,7 @@ namespace BattleSystem
     {
         public static BattleController Instance { get; set; }
 
+        //player team = 0 enemy team = 1
         public Dictionary<int, List<BattleCharacter>> characters = new Dictionary<int, List<BattleCharacter>>();
         public int characterTurnIndex;
         public Spell playerSelectedSpell;
@@ -85,9 +86,14 @@ namespace BattleSystem
                         break;
                 }
             }
-            else
+            else if (characters[1].Count < 1)
             {
-                Debug.Log("Battle over!");
+                Debug.Log("Battle won!");
+                EventController.BattleCompleted();
+            }
+            else
+            { 
+                Debug.Log("Battle lost");
                 EventController.BattleCompleted();
             }
         }
