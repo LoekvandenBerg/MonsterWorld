@@ -10,7 +10,6 @@ public class Room
     public Dictionary<string, Room> neighbors;
 
     private Dictionary<string, GameObject> name2Prefab;
-
     private int tilemapWidth = 18;
     private int tilemapHeight = 10;
 
@@ -160,6 +159,7 @@ public class Room
 
     public void AddPopulationToTilemap(Tilemap tilemap, TileBase obstacleTile)
     {
+        int amountOfEnemies = 0;
         for (int xIndex = 0; xIndex < tilemapWidth; xIndex++)
         {
             for (int yIndex = 0; yIndex < tilemapHeight; yIndex++)
@@ -170,7 +170,9 @@ public class Room
                 }
                 else if(this.population[xIndex, yIndex] != "" && this.population[xIndex,yIndex] != "Player"){
                     GameObject prefab = GameObject.Instantiate(this.name2Prefab[this.population[xIndex, yIndex]]);
+                    amountOfEnemies++;
                     prefab.transform.position = new Vector2(xIndex - (tilemapWidth / 2) + 0.5f, yIndex - (tilemapHeight / 2) + 0.5f);
+                    prefab.GetComponent<BattleLaunchCharacter>().id = amountOfEnemies;
                 }
             }
         }

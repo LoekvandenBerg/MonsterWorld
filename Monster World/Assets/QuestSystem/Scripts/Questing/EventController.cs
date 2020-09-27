@@ -1,37 +1,43 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EventController : MonoBehaviour {
-    public static event System.Action<int> OnEnemyDied = delegate { };
-    public static event System.Action<int> OnItemFound = delegate { };
-    public static event System.Action<QuestSystem.Quest> OnQuestProgressChanged = delegate { };
-    public static event System.Action<QuestSystem.Quest> OnQuestCompleted = delegate { };
-    public static event System.Action OnBattleCompleted = delegate { };
+    public static event Action<int> OnEnemyDied = delegate { };
+    public static event Action<int> OnItemFound = delegate { };
+    public static event Action<QuestSystem.Quest> OnQuestProgressChanged = delegate { };
+    public static event Action<QuestSystem.Quest> OnQuestCompleted = delegate { };
+    public static event Action OnBattleCompleted = delegate { };
+    public static event Action<int> OnReturnFromBattle = delegate { };
 
 
     public static void EnemyDied(int enemyID)
     {
-        OnEnemyDied(enemyID);
+        OnEnemyDied?.Invoke(enemyID);
     }
 
     public static void ItemFound(int itemID)
     {
-        OnItemFound(itemID);
+        OnItemFound?.Invoke(itemID);
     }
 
     public static void QuestProgressChanged(QuestSystem.Quest quest)
     {
-        OnQuestProgressChanged(quest);
+        OnQuestProgressChanged?.Invoke(quest);
     }
 
     public static void QuestCompleted(QuestSystem.Quest quest)
     {
-        OnQuestCompleted(quest);
+        OnQuestCompleted?.Invoke(quest);
     }
 
     public static void BattleCompleted()
     {
-        OnBattleCompleted();
+        OnBattleCompleted?.Invoke();
+    }
+
+    public static void ReturnedFromBattle(int launchcharId)
+    {
+        OnReturnFromBattle?.Invoke(launchcharId);
     }
 }

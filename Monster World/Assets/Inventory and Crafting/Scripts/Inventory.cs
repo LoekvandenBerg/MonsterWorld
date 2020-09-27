@@ -45,7 +45,7 @@ public class Inventory : MonoBehaviour {
     public void GiveItem(int id)
     {
         Item itemToAdd = itemDatabase.GetItem(id);
-        Debug.Log(itemToAdd.title);
+        //Debug.Log(itemToAdd.title);
         inventoryUI.AddItemToUI(itemToAdd);
         playerItems.Add(itemToAdd);
     }

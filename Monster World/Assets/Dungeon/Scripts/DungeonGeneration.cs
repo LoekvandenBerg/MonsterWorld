@@ -28,7 +28,7 @@ public class DungeonGeneration : MonoBehaviour
 
     public Room currentRoom;
 
-    private static DungeonGeneration instance = null;
+    public static DungeonGeneration instance = null;
 
     private void Awake()
     {

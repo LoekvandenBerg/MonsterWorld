@@ -29,7 +29,7 @@ namespace QuestSystem
         public void UpdateQuestData(Quest quest)
         {
             Quests[quest.questName] = new int[] { Convert.ToInt32(quest.completed), quest.goal.countCurrent };
-            Debug.Log("Data updated for: " + quest.questName);
+            //Debug.Log("Data updated for: " + quest.questName);
         }
     }
 }

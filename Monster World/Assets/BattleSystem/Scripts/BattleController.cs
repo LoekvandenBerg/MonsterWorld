@@ -71,7 +71,7 @@ namespace BattleSystem
                 {
                     NextTurn();
                     characterTurnIndex = 0;
-                    Debug.Log("turn: " + actTurn);
+                    //Debug.Log("turn: " + actTurn);
                 }
 
                 switch (actTurn)
@@ -132,14 +132,14 @@ namespace BattleSystem
 
         public void DoAttack(BattleCharacter attacker, BattleCharacter target)
         {
-            Debug.Log("do attack.");
+            //Debug.Log("do attack.");
             target.Hurt(attacker.attackPower);
             NextAct();
         }
 
         public void StartBattle(List<BattleCharacter> players, List<BattleCharacter> enemies)
         {
-            Debug.Log("Setup battle!");
+            //Debug.Log("Setup battle!");
             for (int i = 0; i < players.Count; i++)
             {
                 characters[0].Add(spawnPoints[i + 3].Spawn(players[i]));

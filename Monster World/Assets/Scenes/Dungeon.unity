@@ -244,7 +244,6 @@ MonoBehaviour:
   - {x: 2, y: 2}
   - {x: 2, y: 1}
   possibleEnemies:
-  - {fileID: 3999257603804659494, guid: c73e22aedb8ffc944ad6225f017db002, type: 3}
   - {fileID: 5527125980933837437, guid: b9031729d136c12479236722da48afd4, type: 3}
   numberOfEnemies: 3
   goalPrefab: {fileID: 3302350826541150540, guid: 8d0516003ee375c469f4c12fa857bc16,

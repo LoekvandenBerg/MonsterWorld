@@ -7,10 +7,11 @@ public class BattleLaunchCharacter : MonoBehaviour {
 
     [SerializeField]
     private List<BattleCharacter> enemies;
+    public int id;
     
     public void PrepareBattle(Player player, BattleLauncher launcher)
     {
         player.gameObject.SetActive(false);
-        launcher.PrepareBattle(enemies, player.team, player.transform.position);
+        launcher.PrepareBattle(enemies, player.team, player.transform.position, id);
     }
 }

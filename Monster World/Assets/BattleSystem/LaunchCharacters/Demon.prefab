@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5527125980933837439}
   m_Layer: 0
   m_Name: Demon
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,6 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 114709247568877002, guid: 33cf23bb2d234ed40a881cc1e802105a, type: 3}
+  id: 0
 --- !u!212 &5527125980933837434
 SpriteRenderer:
   m_ObjectHideFlags: 0
