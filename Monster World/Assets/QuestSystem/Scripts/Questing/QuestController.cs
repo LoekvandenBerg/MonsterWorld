@@ -27,6 +27,11 @@ namespace QuestSystem
             questDatabase = GetComponent<QuestDatabase>();
         }
 
+        private void Update()
+        {
+           
+        }
+
         public Quest AssignQuest(string questName)
         {
             Quest questToAdd = null;

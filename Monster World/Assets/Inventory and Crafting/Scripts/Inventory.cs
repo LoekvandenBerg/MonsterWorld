@@ -20,14 +20,13 @@ public class Inventory : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            inventoryUI.gameObject.SetActive(!inventoryUI.gameObject.activeSelf);
-        }
+        
     }
 
     private void Start()
     {
+        inventoryUI.gameObject.SetActive(!inventoryUI.gameObject.activeSelf);
+
         GiveItem(1);
         GiveItem(2);
         GiveItem(3);
@@ -40,6 +39,7 @@ public class Inventory : MonoBehaviour {
         GiveItem(1);
         GiveItem(2);
         GiveItem(3);
+        inventoryUI.gameObject.SetActive(!inventoryUI.gameObject.activeSelf);
     }
 
     public void GiveItem(int id)
